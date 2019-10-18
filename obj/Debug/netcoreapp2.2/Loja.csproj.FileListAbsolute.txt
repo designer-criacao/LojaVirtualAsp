@@ -1,0 +1,14 @@
+C:\Loja\bin\Debug\netcoreapp2.2\Loja.deps.json
+C:\Loja\bin\Debug\netcoreapp2.2\Loja.runtimeconfig.json
+C:\Loja\bin\Debug\netcoreapp2.2\Loja.runtimeconfig.dev.json
+C:\Loja\bin\Debug\netcoreapp2.2\Loja.dll
+C:\Loja\bin\Debug\netcoreapp2.2\Loja.pdb
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.csprojAssemblyReference.cache
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.csproj.CoreCompileInputs.cache
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.RazorAssemblyInfo.cache
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.RazorAssemblyInfo.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.AssemblyInfoInputs.cache
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.AssemblyInfo.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.RazorTargetAssemblyInfo.cache
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.dll
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.pdb
