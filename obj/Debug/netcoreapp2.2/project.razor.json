@@ -2961,8 +2961,43 @@
   "RootNamespace": "Loja",
   "Documents": [
     {
+      "FilePath": "Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Produto\\Visualizar.cshtml",
       "TargetPath": "Views\\Produto\\Visualizar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Contato.cshtml",
+      "TargetPath": "Views\\Home\\Contato.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\CarrinhoCompras.cshtml",
+      "TargetPath": "Views\\Home\\CarrinhoCompras.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Login.cshtml",
+      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\CadastroCliente.cshtml",
+      "TargetPath": "Views\\Home\\CadastroCliente.cshtml",
       "FileKind": "mvc"
     }
   ],

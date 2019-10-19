@@ -21,3 +21,10 @@ C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Visualizar.g.cshtml.cs
 C:\Loja\obj\Debug\netcoreapp2.2\Loja.RazorTargetAssemblyInfo.cs
 C:\Loja\obj\Debug\netcoreapp2.2\Loja.Views.pdb
 C:\Loja\obj\Debug\netcoreapp2.2\Loja.csproj.CopyComplete
+C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contato.g.cshtml.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\Home\CadastroCliente.g.cshtml.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\Home\CarrinhoCompras.g.cshtml.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
