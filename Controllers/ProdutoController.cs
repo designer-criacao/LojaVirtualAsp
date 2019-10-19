@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Loja.Models;
 
 namespace LojaVirtual.Controllers
 {
@@ -15,8 +16,21 @@ namespace LojaVirtual.Controllers
         */
         public ActionResult Visualizar()
         {
-            return View();
+            Produto produto = GetProduto();
+
+            return View(produto);
             //return new ContentResult() { Content = "<h3>Produto -> Visualizar</h3>", ContentType = "text/html" };
+        }
+
+        private Produto GetProduto()
+        {
+            return new Produto()
+            {
+                Id = 1,
+                Nome = "Xbox One X",
+                Descricao = "Jogue em 4k",
+                Valor = 2000.00M
+            };
         }
     }
 }
