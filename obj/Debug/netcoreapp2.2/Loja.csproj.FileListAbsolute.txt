@@ -12,3 +12,12 @@ C:\Loja\obj\Debug\netcoreapp2.2\Loja.AssemblyInfo.cs
 C:\Loja\obj\Debug\netcoreapp2.2\Loja.RazorTargetAssemblyInfo.cache
 C:\Loja\obj\Debug\netcoreapp2.2\Loja.dll
 C:\Loja\obj\Debug\netcoreapp2.2\Loja.pdb
+C:\Loja\bin\Debug\netcoreapp2.2\Loja.Views.dll
+C:\Loja\bin\Debug\netcoreapp2.2\Loja.Views.pdb
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.TagHelpers.input.cache
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.TagHelpers.output.cache
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.RazorCoreGenerate.cache
+C:\Loja\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Visualizar.g.cshtml.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.RazorTargetAssemblyInfo.cs
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.Views.pdb
+C:\Loja\obj\Debug\netcoreapp2.2\Loja.csproj.CopyComplete

@@ -2959,6 +2959,12 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "Loja",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "Views\\Produto\\Visualizar.cshtml",
+      "TargetPath": "Views\\Produto\\Visualizar.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
