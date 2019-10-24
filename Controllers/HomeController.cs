@@ -1,5 +1,6 @@
 using Loja.Models;
 using Microsoft.AspNetCore.Mvc;
+using Loja.Libraries.Email;
 
 namespace Loja.Controllers
 {
@@ -17,10 +18,12 @@ namespace Loja.Controllers
         public IActionResult ContatoAcao()
         {
             Contato contato = new Contato();
-            string nome = HttpContext.Request.Form["nome"];
-            string email = HttpContext.Request.Form["email"];
-            string texto = HttpContext.Request.Form["texto"];
-            
+            contato.Nome = HttpContext.Request.Form["nome"];
+            contato.Email = HttpContext.Request.Form["email"];
+            contato.Texto = HttpContext.Request.Form["texto"];
+
+            ContatoEmail.EnviarContatoPorEmail(contato);
+
             return new ContentResult() { Content = string.Format("Dados recebidos com sucesso!<br /> Nome: {0} <br />E-mail: {1} <br />Texto: {2}", contato.Nome, contato.Email, contato.Texto), ContentType = "text/html" };
         }
 
