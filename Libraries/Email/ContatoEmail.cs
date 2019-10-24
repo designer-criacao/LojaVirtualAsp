@@ -11,7 +11,7 @@ namespace Loja.Libraries.Email
             //SMTP -> Servidor que vai enviar a mensagem
             SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new NetworkCredential("soidesigncriacao@gmail.com", "criatividadedez");
+            smtp.Credentials = new NetworkCredential("soidesigncriacao@gmail.com", "***************");
             smtp.EnableSsl = true;
 
             string corpoMsg = string.Format("<h2>Contato - Loja Virtual</h2>" + 
