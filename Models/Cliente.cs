@@ -1,4 +1,6 @@
 
+using System;
+
 namespace Loja.Models
 {
     public class Cliente
