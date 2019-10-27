@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+// using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.EntityFrameworkCore;
 
@@ -36,12 +37,16 @@ namespace Loja
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.AddRazorPages();
 
-            string connection = "Server=DESKTOP-57E2MDQ;Database=LojaVirtual;User Id=sa; Password=gostosao1984";
+            string connection = "Server=DESKTOP-57E2MDQ;Database=LojaVirtual;User Id=sa; Password=**********";
             services.AddDbContext<LojaVirtualContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+
+        //Código Antigo
+        //public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -66,6 +71,7 @@ namespace Loja
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            
         }
     }
 }
